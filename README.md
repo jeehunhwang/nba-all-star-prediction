@@ -21,7 +21,7 @@ Between 1976 and 2025, the average number of All Stars per season was approximat
 | **VORP** | Value Over Replacement Player – estimates a player’s overall contribution compared to a replacement-level player. |
 
 ## Models
-CART, Random Forest, and XGBoost were selected as the classification models. XGBoost delivered the strongest balance between precision and recall for identifying All Stars (All Star = 1). While CART achieved higher recall, it sacrificed too much precision, and Random Forest achieved higher precision but missed too many actual All Stars. XGBoost maintained solid precision (0.74) and recall (0.63), resulting in the highest F1-score (0.68) for All Star predictions. This makes it the most reliable model when both correctly identifying All Stars and limiting false selections are important.
+CART, Random Forest, and XGBoost were selected as the classification models. XGBoost showed the strongest balance between precision and recall for identifying All Stars (Class 1). While CART achieved higher recall, it sacrificed too much precision, and Random Forest achieved higher precision but missed too many actual All Stars. XGBoost maintained solid precision (0.74) and recall (0.63), resulting in the highest F1-score (0.68) for All Star predictions. This makes it the most reliable model when both correctly identifying All Stars and limiting false selections are important.
 
 | Model         | Class 1 Precision | Class 1 Recall | Class 1 F1 | Overall Accuracy |
 |---------------|-------------------|----------------|------------|------------------|
