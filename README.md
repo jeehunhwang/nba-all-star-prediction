@@ -2,10 +2,10 @@
 By Jimmy Hwang
 
 ## Overview
-Machine learning models were used to predict NBA All Star status using both traditional and advanced player statistics. The dataset covers the period from the NBA–ABA merger in the 1976-77 season through the 2024-25 season, with all data collected from Stathead. The goal of this project is to classify players as an All Star or not across multiple preseasons. Snub cases can also be identified where an All-Star is predicted by the model but the player was not selected.
+Machine learning models were used to predict NBA All Star status using both traditional and advanced player statistics. The dataset covers the period from the NBA-ABA merger in the 1976-77 season through the 2024-25 season, with all data collected from Stathead. The goal of this project is to classify players as an All Star or not across multiple preseasons. Snub cases can also be identified where an All-Star is predicted by the model but the player was not selected.
 
 ## Initial Findings
-Between 1976 and 2025, the average number of All Stars per season was approximately 25, ranging from a minimum of 23 to a maximum of 29. The 1998–99 and 2011–12 lockout seasons were excluded from modeling due to significant reductions in cumulative data across key features.
+Between 1976 and 2025, the average number of All Stars per season was approximately 25, ranging from a minimum of 23 to a maximum of 29. The 1998-99 and 2011-12 lockout seasons were excluded from modeling due to significant reductions in cumulative data across key features.
 
 ## Features
 | Feature | Definition |
@@ -30,9 +30,9 @@ CART, Random Forest, and XGBoost were selected as the classification models. XGB
 | XGBoost       | 0.7400            | 0.6300         | **0.6800** | **0.9700**       |
 
 ## 2024-25 Findings
-One of the most interesting takeaways from the XGBoost model is how it points out both possible snubs and borderline All-Stars. A few actual All-Stars came out as borderline picks according to the model. Jaren Jackson Jr. (20.1%), Jaylen Brown (18.2%), and Kyrie Irving (12.1%) were all selected, but the model wasn’t nearly as high on them. That suggests their selections may have been influenced more by reputation, narrative, team success, or other statistics (which is fair, since basketball is about more than just raw numbers). Luka Dončić was one of the model’s highest-probability picks for the All-Star team, yet he wasn’t selected in reality because of a calf injury early in the season that hurt his visibility and availability for the vote.
+One of the most interesting takeaways from the XGBoost model is how it points out both possible snubs and borderline All-Stars. A few actual All Stars came out as borderline picks according to the model. Jaren Jackson Jr. (20.1%), Jaylen Brown (18.2%), and Kyrie Irving (12.1%) were all selected, but the model wasn’t nearly as high on them. That suggests their selections may have been influenced more by reputation, narrative, team success, or other statistics (which is fair, since basketball is about more than just raw numbers). Luka Dončić was one of the model’s highest-probability picks for the All-Star team, yet he wasn’t selected in reality because of a calf injury early in the season that hurt his visibility and availability for the vote.
 
-Meanwhile, players like Austin Reaves (39.9%), Desmond Bane (38.7%), Zach LaVine (30.7%), Domantas Sabonis (28.5%), and Tyrese Haliburton (26.2%) didn’t make the official roster, but the model assigned them relatively high probabilities of being selected. Statistically, they even outperformed some players who did make the team, making a strong case that they deserved a closer look. All in all, the model doesn’t just predict All-Stars well; it sparks the fun debates about who got snubbed and who maybe got a boost.
+Meanwhile, players like Austin Reaves (39.9%), Desmond Bane (38.7%), Zach LaVine (30.7%), Domantas Sabonis (28.5%), and Tyrese Haliburton (26.2%) didn’t make the official roster, but the model assigned them relatively high probabilities of being selected. Statistically, they even outperformed some players who did make the team, making a strong case that they deserved a closer look. All in all, the model doesn’t just predict All Stars well; it sparks the fun debates about who got snubbed and who maybe got a boost.
 
 | Player            | Actual All Star | Predicted All Star | Predicted Probability |
 |-------------------|:--------:|:------------------:|---------------:|
