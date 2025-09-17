@@ -29,16 +29,10 @@ CART, Random Forest, and XGBoost were selected as the classification models. XGB
 | Random Forest | **0.7700**        | 0.5600         | 0.6500     | **0.9700**       |
 | XGBoost       | 0.7400            | 0.6300         | **0.6800** | **0.9700**       |
 
-## 2024-25 Snubs
-One of the most interesting takeaways from the XGBoost model is how it points out some possible All-Star snubs. A few actual All-Stars came out as borderline picks according to the model. Jaren Jackson Jr. (20.1%), Jaylen Brown (18.2%), and Kyrie Irving (12.1%) were all selected, but the model wasn’t nearly as high on them. That suggests their selections may have been influenced more by reputation, narrative, team success, or other forms of statistics than by pure stats, which is fair since basketball is about more than just the numbers. Luka was one of the model’s highest-probability picks for the All-Star team, yet he wasn’t selected in reality. The main reason was his calf injury early in the season, which hurt his visibility and availability for the All-Star vote.
+## 2024-25 Findings
+One of the most interesting takeaways from the XGBoost model is how it points out both possible snubs and borderline All-Stars. A few actual All-Stars came out as borderline picks according to the model. Jaren Jackson Jr. (20.1%), Jaylen Brown (18.2%), and Kyrie Irving (12.1%) were all selected, but the model wasn’t nearly as high on them. That suggests their selections may have been influenced more by reputation, narrative, team success, or other statistics (which is fair, since basketball is about more than just raw numbers). Luka Dončić was one of the model’s highest-probability picks for the All-Star team, yet he wasn’t selected in reality because of a calf injury early in the season that hurt his visibility and availability for the vote.
 
-Meanwhile, guys like Austin Reaves (39.9%), Desmond Bane (38.7%), Zach LaVine (30.7%), Domantas Sabonis (28.5%), and Tyrese Haliburton (26.2%) didn’t make the official roster, but the model assigned them relatively high probabilities of making the team. Statistically, they even outperformed some players who made the All Star selection, which makes a strong case that they deserved a closer look. All in all, the model doesn’t just predict All-Stars well; it sparks the fun debates about who got snubbed and who maybe got a boost.
-
-## Model Predictions: All-Stars vs. Snubs (with Color Coding)
-
-## Model Predictions: All-Stars vs. Snubs (with Emojis)
-
-## Model Predictions: All-Stars vs. Snubs (Ordered by Probability)
+Meanwhile, players like Austin Reaves (39.9%), Desmond Bane (38.7%), Zach LaVine (30.7%), Domantas Sabonis (28.5%), and Tyrese Haliburton (26.2%) didn’t make the official roster, but the model assigned them relatively high probabilities of being selected. Statistically, they even outperformed some players who did make the team, making a strong case that they deserved a closer look. All in all, the model doesn’t just predict All-Stars well; it sparks the fun debates about who got snubbed and who maybe got a boost.
 
 | Player            | Actual All Star | Predicted All Star | Predicted Probability |
 |-------------------|:--------:|:------------------:|---------------:|
