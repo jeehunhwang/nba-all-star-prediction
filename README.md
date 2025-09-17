@@ -34,45 +34,47 @@ One of the most interesting takeaways from the XGBoost model is how it points ou
 
 Meanwhile, guys like Austin Reaves (39.9%), Desmond Bane (38.7%), Zach LaVine (30.7%), Domantas Sabonis (28.5%), and Tyrese Haliburton (26.2%) didn’t make the official roster, but the model assigned them relatively high probabilities of making the team. Statistically, they even outperformed some players who made the All Star selection, which makes a strong case that they deserved a closer look. All in all, the model doesn’t just predict All-Stars well; it sparks the fun debates about who got snubbed and who maybe got a boost.
 
+## Model Predictions: All-Stars vs. Snubs (with Color Coding)
+
 | Player            | All_Star | Predicted_All_Star | Predicted_Prob |
 |-------------------|:--------:|:------------------:|---------------:|
-| Shai Gilgeous-Alexander | 1 | 1 | 0.9988 |
-| Nikola Jokić      | 1 | 1 | 0.9977 |
-| Anthony Edwards   | 1 | 1 | 0.9891 |
-| Giannis Antetokounmpo | 1 | 1 | 0.9873 |
-| James Harden      | 1 | 1 | 0.9721 |
-| LeBron James      | 1 | 1 | 0.9391 |
-| Jayson Tatum      | 1 | 1 | 0.9369 |
-| Tyler Herro       | 1 | 1 | 0.9185 |
-| Stephen Curry     | 1 | 1 | 0.9162 |
-| Jalen Brunson     | 1 | 1 | 0.9139 |
-| Kevin Durant      | 1 | 1 | 0.8861 |
-| Karl-Anthony Towns| 1 | 1 | 0.8435 |
-| Victor Wembanyama | 1 | 1 | 0.8374 |
-| Cade Cunningham   | 1 | 1 | 0.8342 |
-| Donovan Mitchell  | 1 | 1 | 0.7470 |
-| Trae Young        | 1 | 1 | 0.6991 |
-| Darius Garland    | 1 | 1 | 0.6631 |
-| Anthony Davis     | 1 | 1 | 0.6271 |
-| Jalen Williams    | 1 | 1 | 0.6018 |
-| Alperen Şengün    | 1 | 1 | 0.5945 |
-| Luka Dončić       | 1 | 0 | 0.5099 |
-| Pascal Siakam     | 1 | 0 | 0.5697 |
-| Damian Lillard    | 1 | 0 | 0.5479 |
-| Evan Mobley       | 1 | 0 | 0.1220 |
-| Kyrie Irving      | 1 | 0 | 0.1218 |
-| Jaren Jackson Jr. | 1 | 0 | 0.2018 |
-| Jaylen Brown      | 1 | 0 | 0.1825 |
-| **Austin Reaves** | 0 | 0 | 0.3988 |
-| **Desmond Bane**  | 0 | 0 | 0.3870 |
-| **Zach LaVine**   | 0 | 0 | 0.3072 |
-| **Domantas Sabonis** | 0 | 0 | 0.2850 |
-| **Tyrese Haliburton**| 0 | 0 | 0.2622 |
-| **Derrick White** | 0 | 0 | 0.2550 |
-| **Devin Booker**  | 0 | 0 | 0.2489 |
-| **Franz Wagner**  | 0 | 0 | 0.2369 |
-| **Jalen Green**   | 0 | 0 | 0.2150 |
-| **Deni Avdija**   | 0 | 0 | 0.1665 |
+| Shai Gilgeous-Alexander | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.9988 |
+| Nikola Jokić      | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.9977 |
+| Anthony Edwards   | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.9891 |
+| Giannis Antetokounmpo | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.9873 |
+| James Harden      | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.9721 |
+| LeBron James      | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.9391 |
+| Jayson Tatum      | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.9369 |
+| Tyler Herro       | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.9185 |
+| Stephen Curry     | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.9162 |
+| Jalen Brunson     | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.9139 |
+| Kevin Durant      | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.8861 |
+| Karl-Anthony Towns| <span style="color:green">1</span> | <span style="color:green">1</span> | 0.8435 |
+| Victor Wembanyama | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.8374 |
+| Cade Cunningham   | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.8342 |
+| Donovan Mitchell  | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.7470 |
+| Trae Young        | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.6991 |
+| Darius Garland    | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.6631 |
+| Anthony Davis     | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.6271 |
+| Jalen Williams    | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.6018 |
+| Alperen Şengün    | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.5945 |
+| Luka Dončić       | <span style="color:green">1</span> | <span style="color:red">0</span> | 0.5099 |
+| Pascal Siakam     | <span style="color:green">1</span> | <span style="color:red">0</span> | 0.5697 |
+| Damian Lillard    | <span style="color:green">1</span> | <span style="color:red">0</span> | 0.5479 |
+| Evan Mobley       | <span style="color:green">1</span> | <span style="color:red">0</span> | 0.1220 |
+| Kyrie Irving      | <span style="color:green">1</span> | <span style="color:red">0</span> | 0.1218 |
+| Jaren Jackson Jr. | <span style="color:green">1</span> | <span style="color:red">0</span> | 0.2018 |
+| Jaylen Brown      | <span style="color:green">1</span> | <span style="color:red">0</span> | 0.1825 |
+| **Austin Reaves** | <span style="color:red">0</span> | <span style="color:red">0</span> | 0.3988 |
+| **Desmond Bane**  | <span style="color:red">0</span> | <span style="color:red">0</span> | 0.3870 |
+| **Zach LaVine**   | <span style="color:red">0</span> | <span style="color:red">0</span> | 0.3072 |
+| **Domantas Sabonis** | <span style="color:red">0</span> | <span style="color:red">0</span> | 0.2850 |
+| **Tyrese Haliburton**| <span style="color:red">0</span> | <span style="color:red">0</span> | 0.2622 |
+| **Derrick White** | <span style="color:red">0</span> | <span style="color:red">0</span> | 0.2550 |
+| **Devin Booker**  | <span style="color:red">0</span> | <span style="color:red">0</span> | 0.2489 |
+| **Franz Wagner**  | <span style="color:red">0</span> | <span style="color:red">0</span> | 0.2369 |
+| **Jalen Green**   | <span style="color:red">0</span> | <span style="color:red">0</span> | 0.2150 |
+| **Deni Avdija**   | <span style="color:red">0</span> | <span style="color:red">0</span> | 0.1665 |
 
 ## References:
 Stathead. (2025). Stathead. Sports Reference. https://www.stathead.com/
