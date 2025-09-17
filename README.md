@@ -1,4 +1,4 @@
-# NBA All-Star Prediction
+# NBA All Star Prediction
 By Jimmy Hwang
 
 ## Overview
