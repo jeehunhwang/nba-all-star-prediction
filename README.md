@@ -36,45 +36,49 @@ Meanwhile, guys like Austin Reaves (39.9%), Desmond Bane (38.7%), Zach LaVine (3
 
 ## Model Predictions: All-Stars vs. Snubs (with Color Coding)
 
-| Player            | All_Star | Predicted_All_Star | Predicted_Prob |
+## Model Predictions: All-Stars vs. Snubs (with Emojis)
+
+## Model Predictions: All-Stars vs. Snubs (Ordered by Probability)
+
+| Player            | Actual All Star | Predicted All Star | Predicted Probability |
 |-------------------|:--------:|:------------------:|---------------:|
-| Shai Gilgeous-Alexander | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.9988 |
-| Nikola Jokić      | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.9977 |
-| Anthony Edwards   | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.9891 |
-| Giannis Antetokounmpo | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.9873 |
-| James Harden      | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.9721 |
-| LeBron James      | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.9391 |
-| Jayson Tatum      | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.9369 |
-| Tyler Herro       | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.9185 |
-| Stephen Curry     | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.9162 |
-| Jalen Brunson     | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.9139 |
-| Kevin Durant      | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.8861 |
-| Karl-Anthony Towns| <span style="color:green">1</span> | <span style="color:green">1</span> | 0.8435 |
-| Victor Wembanyama | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.8374 |
-| Cade Cunningham   | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.8342 |
-| Donovan Mitchell  | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.7470 |
-| Trae Young        | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.6991 |
-| Darius Garland    | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.6631 |
-| Anthony Davis     | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.6271 |
-| Jalen Williams    | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.6018 |
-| Alperen Şengün    | <span style="color:green">1</span> | <span style="color:green">1</span> | 0.5945 |
-| Luka Dončić       | <span style="color:green">1</span> | <span style="color:red">0</span> | 0.5099 |
-| Pascal Siakam     | <span style="color:green">1</span> | <span style="color:red">0</span> | 0.5697 |
-| Damian Lillard    | <span style="color:green">1</span> | <span style="color:red">0</span> | 0.5479 |
-| Evan Mobley       | <span style="color:green">1</span> | <span style="color:red">0</span> | 0.1220 |
-| Kyrie Irving      | <span style="color:green">1</span> | <span style="color:red">0</span> | 0.1218 |
-| Jaren Jackson Jr. | <span style="color:green">1</span> | <span style="color:red">0</span> | 0.2018 |
-| Jaylen Brown      | <span style="color:green">1</span> | <span style="color:red">0</span> | 0.1825 |
-| **Austin Reaves** | <span style="color:red">0</span> | <span style="color:red">0</span> | 0.3988 |
-| **Desmond Bane**  | <span style="color:red">0</span> | <span style="color:red">0</span> | 0.3870 |
-| **Zach LaVine**   | <span style="color:red">0</span> | <span style="color:red">0</span> | 0.3072 |
-| **Domantas Sabonis** | <span style="color:red">0</span> | <span style="color:red">0</span> | 0.2850 |
-| **Tyrese Haliburton**| <span style="color:red">0</span> | <span style="color:red">0</span> | 0.2622 |
-| **Derrick White** | <span style="color:red">0</span> | <span style="color:red">0</span> | 0.2550 |
-| **Devin Booker**  | <span style="color:red">0</span> | <span style="color:red">0</span> | 0.2489 |
-| **Franz Wagner**  | <span style="color:red">0</span> | <span style="color:red">0</span> | 0.2369 |
-| **Jalen Green**   | <span style="color:red">0</span> | <span style="color:red">0</span> | 0.2150 |
-| **Deni Avdija**   | <span style="color:red">0</span> | <span style="color:red">0</span> | 0.1665 |
+| Shai Gilgeous-Alexander | ✅ | ✅ | 0.9988 |
+| Nikola Jokić           | ✅ | ✅ | 0.9977 |
+| Anthony Edwards        | ✅ | ✅ | 0.9891 |
+| Giannis Antetokounmpo  | ✅ | ✅ | 0.9873 |
+| James Harden           | ✅ | ✅ | 0.9721 |
+| LeBron James           | ✅ | ✅ | 0.9392 |
+| Jayson Tatum           | ✅ | ✅ | 0.9367 |
+| Tyler Herro            | ✅ | ✅ | 0.9185 |
+| Stephen Curry          | ✅ | ✅ | 0.9162 |
+| Jalen Brunson          | ✅ | ✅ | 0.9139 |
+| Kevin Durant           | ✅ | ✅ | 0.8861 |
+| Karl-Anthony Towns     | ✅ | ✅ | 0.8436 |
+| Victor Wembanyama      | ✅ | ✅ | 0.8374 |
+| Cade Cunningham        | ✅ | ✅ | 0.8342 |
+| Donovan Mitchell       | ✅ | ✅ | 0.7470 |
+| Trae Young             | ✅ | ✅ | 0.6991 |
+| Darius Garland         | ✅ | ✅ | 0.6631 |
+| Anthony Davis          | ✅ | ✅ | 0.6248 |
+| Jalen Williams         | ✅ | ✅ | 0.6018 |
+| Alperen Şengün         | ✅ | ✅ | 0.5945 |
+| **Luka Dončić**        | ❌ | ✅ | 0.5699 |
+| Pascal Siakam          | ✅ | ✅ | 0.5697 |
+| Damian Lillard         | ✅ | ✅ | 0.5480 |
+| Evan Mobley            | ✅ | ✅ | 0.5394 |
+| **Austin Reaves**      | ❌ | ❌ | 0.3988 |
+| **Desmond Bane**       | ❌ | ❌ | 0.3870 |
+| **Zach LaVine**        | ❌ | ❌ | 0.3072 |
+| **Domantas Sabonis**   | ❌ | ❌ | 0.2850 |
+| **Tyrese Haliburton**  | ❌ | ❌ | 0.2622 |
+| **Derrick White**      | ❌ | ❌ | 0.2550 |
+| **Devin Booker**       | ❌ | ❌ | 0.2487 |
+| **Franz Wagner**       | ❌ | ❌ | 0.2369 |
+| Kyrie Irving           | ✅ | ❌ | 0.2212 |
+| **Jalen Green**        | ❌ | ❌ | 0.2150 |
+| Jaren Jackson Jr.      | ✅ | ❌ | 0.2018 |
+| Jaylen Brown           | ✅ | ❌ | 0.1825 |
+| **Deni Avdija**        | ❌ | ❌ | 0.1665 |
 
 ## References:
 Stathead. (2025). Stathead. Sports Reference. https://www.stathead.com/
