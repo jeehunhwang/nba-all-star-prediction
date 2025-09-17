@@ -34,5 +34,45 @@ One of the most interesting takeaways from the XGBoost model is how it points ou
 
 On the other hand, a few actual All-Stars came out as borderline picks according to the model. Jaren Jackson Jr. (20.1%), Jaylen Brown (18.2%), and Kyrie Irving (12.1%) were all selected, but the model wasn’t nearly as high on them. That suggests their selections may have been influenced more by reputation, narrative, team success, or other forms of statistics than by pure stats, which is fair since basketball is about more than just the numbers. All in all, the model doesn’t just predict All-Stars well; it sparks the fun debates about who got snubbed and who maybe got a boost.
 
+| Player            | All_Star | Predicted_All_Star | Predicted_Prob |
+|-------------------|:--------:|:------------------:|---------------:|
+| Shai Gilgeous-Alexander | 1 | 1 | 0.9988 |
+| Nikola Jokić      | 1 | 1 | 0.9977 |
+| Anthony Edwards   | 1 | 1 | 0.9891 |
+| Giannis Antetokounmpo | 1 | 1 | 0.9873 |
+| James Harden      | 1 | 1 | 0.9721 |
+| LeBron James      | 1 | 1 | 0.9391 |
+| Jayson Tatum      | 1 | 1 | 0.9369 |
+| Tyler Herro       | 1 | 1 | 0.9185 |
+| Stephen Curry     | 1 | 1 | 0.9162 |
+| Jalen Brunson     | 1 | 1 | 0.9139 |
+| Kevin Durant      | 1 | 1 | 0.8861 |
+| Karl-Anthony Towns| 1 | 1 | 0.8435 |
+| Victor Wembanyama | 1 | 1 | 0.8374 |
+| Cade Cunningham   | 1 | 1 | 0.8342 |
+| Donovan Mitchell  | 1 | 1 | 0.7470 |
+| Trae Young        | 1 | 1 | 0.6991 |
+| Darius Garland    | 1 | 1 | 0.6631 |
+| Anthony Davis     | 1 | 1 | 0.6271 |
+| Jalen Williams    | 1 | 1 | 0.6018 |
+| Alperen Şengün    | 1 | 1 | 0.5945 |
+| Luka Dončić       | 1 | 0 | 0.5099 |
+| Pascal Siakam     | 1 | 0 | 0.5697 |
+| Damian Lillard    | 1 | 0 | 0.5479 |
+| Evan Mobley       | 1 | 0 | 0.1220 |
+| Kyrie Irving      | 1 | 0 | 0.1218 |
+| Jaren Jackson Jr. | 1 | 0 | 0.2018 |
+| Jaylen Brown      | 1 | 0 | 0.1825 |
+| **Austin Reaves** | 0 | 0 | 0.3988 |
+| **Desmond Bane**  | 0 | 0 | 0.3870 |
+| **Zach LaVine**   | 0 | 0 | 0.3072 |
+| **Domantas Sabonis** | 0 | 0 | 0.2850 |
+| **Tyrese Haliburton**| 0 | 0 | 0.2622 |
+| **Derrick White** | 0 | 0 | 0.2550 |
+| **Devin Booker**  | 0 | 0 | 0.2489 |
+| **Franz Wagner**  | 0 | 0 | 0.2369 |
+| **Jalen Green**   | 0 | 0 | 0.2150 |
+| **Deni Avdija**   | 0 | 0 | 0.1665 |
+
 ## References:
 Stathead. (2025). Stathead. Sports Reference. https://www.stathead.com/
